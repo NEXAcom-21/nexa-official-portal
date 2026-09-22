@@ -1,0 +1,30 @@
+{
+  "admin-permanent-session-token-nexa": {
+    "userId": "user-admin-1",
+    "email": "nexa.com.in21@gmail.com",
+    "name": "NEXA Official Admin",
+    "role": "admin",
+    "createdAt": 1789891794212
+  },
+  "c5a9218091948bbea7303ad7547d57bc5e3804b47ee41a4765f27c89711b0f99": {
+    "userId": "user-admin-1",
+    "email": "nexa.com.in21@gmail.com",
+    "name": "NEXA Official Admin",
+    "role": "admin",
+    "createdAt": 1789983178050
+  },
+  "67310ed8e40594e0322ad0b223ed1fe6febfe1145f27557399f3007bf647195b": {
+    "userId": "user-admin-1",
+    "email": "nexa.com.in21@gmail.com",
+    "name": "NEXA Official Admin",
+    "role": "admin",
+    "createdAt": 1789984036980
+  },
+  "d67a6ad9a3d6fb5238a3fcdb9bb8ffa7bb08e8b0f1a5b6e431e8b844d14f89d0": {
+    "userId": "user-admin-1",
+    "email": "nexa.com.in21@gmail.com",
+    "name": "NEXA Official Admin",
+    "role": "admin",
+    "createdAt": 1789984042459
+  }
+}

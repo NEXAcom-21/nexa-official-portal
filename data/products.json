@@ -1,0 +1,24 @@
+[
+  {
+    "id": "nexa",
+    "name": "NEXA",
+    "displayName": "NEXA AI & Tools Platform",
+    "description": "Next-generation personal AI assistant with Hey NEXA voice activation, smart finance calculators, full productivity tools suite, and AMOLED settings.",
+    "category": "Flagship Platform",
+    "icon": "Bot",
+    "isMain": true,
+    "createdAt": "2026-09-19T12:00:00.000Z",
+    "updatedAt": "2026-09-21T08:00:00.000Z"
+  },
+  {
+    "id": "focuslock",
+    "name": "FocusLock",
+    "displayName": "FocusLock Companion",
+    "description": "Distraction barrier, app protection, biometric locks, and deep focus sessions for smartphone mindfulness.",
+    "category": "Security & Focus",
+    "icon": "Shield",
+    "isMain": false,
+    "createdAt": "2026-09-19T12:00:00.000Z",
+    "updatedAt": "2026-09-21T08:00:00.000Z"
+  }
+]

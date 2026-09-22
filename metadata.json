@@ -1,0 +1,7 @@
+{
+  "name": "NEXA Official Website",
+  "description": "The official product and company website for NEXA (NEXA.COM.IN 21) — Your AI, Your Assistant, Your Tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

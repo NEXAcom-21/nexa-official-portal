@@ -1,0 +1,22 @@
+[
+  {
+    "id": "enq-1789827344825-v35pb",
+    "name": "QA Tester",
+    "email": "qa@test.com",
+    "category": "App Support",
+    "subject": "QA Verification Contact Test",
+    "message": "This is an automated QA test message verifying the contact dispatch pipeline.",
+    "createdAt": "2026-09-19T14:15:44.825Z",
+    "status": "unread"
+  },
+  {
+    "id": "enq-1789825635805-4ep02",
+    "name": "Tester",
+    "email": "test@example.com",
+    "category": "Service Enquiry",
+    "subject": "Test Enquiry",
+    "message": "Hello NEXA team, testing the contact pipeline.",
+    "createdAt": "2026-09-19T13:47:15.805Z",
+    "status": "unread"
+  }
+]

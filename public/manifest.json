@@ -1,0 +1,23 @@
+{
+  "name": "NEXA (NEXA.COM.IN 21)",
+  "short_name": "NEXA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#030712",
+  "description": "Official portal for NEXA – Next-gen AI assistant, productivity tools, and Android APK downloads.",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%23050b14'/%3E%3Cpath d='M48 144 L48 48 L78 48 L114 108 L114 48 L144 48 L144 144 L114 144 L78 84 L78 144 Z' fill='%2300f0ff'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%23050b14'/%3E%3Cpath d='M128 384 L128 128 L208 128 L304 288 L304 128 L384 128 L384 384 L304 384 L208 224 L208 384 Z' fill='%2300f0ff'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

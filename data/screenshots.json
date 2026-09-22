@@ -1,0 +1,65 @@
+[
+  {
+    "id": "screen-1",
+    "title": "NEXA AI Assistant",
+    "category": "NEXA AI",
+    "description": "Clean, intelligent chat interface delivering multi-turn conversational assistance, draft generation, and instant guidance.",
+    "badge": "AI Core",
+    "mockupType": "assistant",
+    "order": 1
+  },
+  {
+    "id": "screen-2",
+    "title": "Finance Department & Calculators",
+    "category": "Finance",
+    "description": "Built-in financial calculators for Loan EMI, SIP projections, GST computations, and wealth growth schedules.",
+    "badge": "Finance Suite",
+    "mockupType": "finance",
+    "order": 2
+  },
+  {
+    "id": "screen-3",
+    "title": "NEXA Tools Suite",
+    "category": "Tools",
+    "description": "Smart everyday utilities tray for quick device controls, flashlight modes, audio profiles, and productivity helpers.",
+    "badge": "Smart Tools",
+    "mockupType": "tools",
+    "order": 3
+  },
+  {
+    "id": "screen-4",
+    "title": "AI Video Generation",
+    "category": "Video Generation",
+    "description": "Creative prompt-to-video workflow interface to craft dynamic video clips directly from simple text descriptions.",
+    "badge": "Creative AI",
+    "mockupType": "video",
+    "order": 4
+  },
+  {
+    "id": "screen-5",
+    "title": "Intelligent Object Finder",
+    "category": "Object Finder",
+    "description": "Camera-powered visual detection identifying objects, products, and scene elements in real time.",
+    "badge": "Vision AI",
+    "mockupType": "object_finder",
+    "order": 5
+  },
+  {
+    "id": "screen-6",
+    "title": "Focus & Device Protection",
+    "category": "Focus / Protection",
+    "description": "Distraction-free focus sessions with customizable timers, protected lockouts, and biometric security layers.",
+    "badge": "Protection",
+    "mockupType": "focuslock",
+    "order": 6
+  },
+  {
+    "id": "screen-7",
+    "title": "NEXA Settings & Customization",
+    "category": "Settings",
+    "description": "Clean customization console for theme appearance, battery optimization, notifications, and profile preferences.",
+    "badge": "Preferences",
+    "mockupType": "settings",
+    "order": 7
+  }
+]

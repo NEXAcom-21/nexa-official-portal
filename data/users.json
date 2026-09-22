@@ -1,0 +1,29 @@
+[
+  {
+    "id": "user-admin-1",
+    "name": "NEXA Official Admin",
+    "email": "nexa.com.in21@gmail.com",
+    "role": "admin",
+    "salt": "ae24a96c526f1155d39c08f86691ab03",
+    "passwordHash": "40fd0c097af69dbc350dc6cd6ce2a983261829c3471e3de01ca93377c3c3aec60b18301c11e96e0682cfe9c93c0d6d9e04c4746da323c9ef9080488bea89bd0d",
+    "createdAt": "2026-09-19T14:45:00.000Z"
+  },
+  {
+    "id": "user-1789828194515",
+    "name": "Tester User",
+    "email": "tester@example.com",
+    "role": "user",
+    "salt": "c8a978c79d475c84c0f322924f17f1d3",
+    "passwordHash": "e9363d9f14f37b798e7a4f83ab540716b073fedaea183753a631311f056764bcf20721cfe0bf4f5d4bae4363ee20c8c5fa264a35f93230cf700d7fe0937377a6",
+    "createdAt": "2026-09-19T14:29:54.515Z"
+  },
+  {
+    "id": "user-1789828515781",
+    "name": "Nihanshu Gawande",
+    "email": "nihanshugawande@gmail.com",
+    "role": "user",
+    "salt": "e4417dbe742409c97a87371042ac23b4",
+    "passwordHash": "43be89656489b71aafbf240f4690f9f1033f7ac745388986f0ee5b720d4db72b4c2d044498d90a61aec65a94bd2f646fccc791a5d2346dc2777d142be97693cf",
+    "createdAt": "2026-09-19T14:35:15.781Z"
+  }
+]

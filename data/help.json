@@ -1,0 +1,166 @@
+[
+  {
+    "id": "help-1",
+    "section": "general",
+    "category": "Getting Started",
+    "title": "Getting Started with NEXA v2.5",
+    "summary": "Quick guide on downloading, installing, and initializing NEXA on your Android device.",
+    "content": [
+      "1. Download the official NEXA v2.5 APK from nexa.com.in or the official app store link.",
+      "2. Tap the downloaded APK file and allow installation from unknown sources if prompted.",
+      "3. Launch NEXA and follow the welcome walkthrough to personalize your setup.",
+      "4. Explore the 7 core departments: AI Assistant, Finance, Tools, Video Generation, Object Finder, Focus/Protection, and Settings."
+    ],
+    "androidSpecific": true,
+    "tags": ["getting started", "installation", "setup", "v2.5"]
+  },
+  {
+    "id": "help-2",
+    "section": "ai",
+    "category": "NEXA AI",
+    "title": "Using the NEXA AI Assistant",
+    "summary": "How to ask questions, solve everyday problems, and interact with the conversational assistant.",
+    "content": [
+      "1. Open the NEXA AI tab from the home screen.",
+      "2. Type your question or prompt in the message bar and tap Send.",
+      "3. NEXA AI can assist with drafting messages, summarizing topics, answering general knowledge, and guiding you through app utilities.",
+      "4. You can also use 'Ask NEXA AI' directly here on our official website anytime."
+    ],
+    "androidSpecific": false,
+    "tags": ["ai", "assistant", "chat", "prompts"]
+  },
+  {
+    "id": "help-3",
+    "section": "general",
+    "category": "Account",
+    "title": "Managing Your NEXA Profile and Settings",
+    "summary": "How to link your profile, back up local preferences, and configure account security.",
+    "content": [
+      "1. Open Settings within the NEXA app.",
+      "2. Navigate to Account & Profile to set your display name and sync preferences.",
+      "3. Personal data stays stored securely on your device by default.",
+      "4. For account recovery assistance, reach our team at nexa.com.in21@gmail.com."
+    ],
+    "androidSpecific": true,
+    "tags": ["account", "profile", "security", "backup"]
+  },
+  {
+    "id": "help-4",
+    "section": "general",
+    "category": "Tools",
+    "title": "Everyday Productivity Tools Overview",
+    "summary": "How to use the built-in utilities in the NEXA Tools department.",
+    "content": [
+      "1. Tap Tools on the bottom navigation bar.",
+      "2. Access fast utilities including Flashlight strobe controls, Audio profile switcher, Unit Converters, and QR Code scanner.",
+      "3. Tools operate quickly without requiring third-party bloatware."
+    ],
+    "androidSpecific": true,
+    "tags": ["tools", "utilities", "productivity", "scanner"]
+  },
+  {
+    "id": "help-5",
+    "section": "general",
+    "category": "Finance",
+    "title": "Using the Finance & Wealth Calculators",
+    "summary": "Perform instant Loan EMI, SIP, GST, and Compound Interest calculations.",
+    "content": [
+      "1. Select Finance from the main menu.",
+      "2. Choose your calculator: Loan EMI, SIP Investment Planner, GST Tax, or Compound Interest.",
+      "3. Enter loan or investment amounts, interest rates, and tenure.",
+      "4. Calculations run locally on your device with visual breakdowns."
+    ],
+    "androidSpecific": true,
+    "tags": ["finance", "emi", "sip", "gst", "calculator"]
+  },
+  {
+    "id": "help-6",
+    "section": "general",
+    "category": "Video Generation",
+    "title": "Creative Video Generation Guide",
+    "summary": "Creating dynamic short video clips using prompt-to-video creative workflows.",
+    "content": [
+      "1. Tap Video Generation in the app menu.",
+      "2. Enter a descriptive text prompt detailing the scene, style, and motion you want to create.",
+      "3. Select aspect ratio and visual theme.",
+      "4. Tap Generate to start processing your creative video clip."
+    ],
+    "androidSpecific": true,
+    "tags": ["video generation", "ai video", "creativity", "motion"]
+  },
+  {
+    "id": "help-7",
+    "section": "general",
+    "category": "Object Finder",
+    "title": "Using the Intelligent Object Finder",
+    "summary": "Real-time visual recognition to identify objects, text, and elements through your camera.",
+    "content": [
+      "1. Open Object Finder from the NEXA tool tray.",
+      "2. Point your camera towards the object or scene you wish to identify.",
+      "3. NEXA detects prominent items in real-time and provides contextual information.",
+      "4. Camera permission is only used when the Object Finder screen is actively opened."
+    ],
+    "androidSpecific": true,
+    "tags": ["object finder", "camera", "visual ai", "detection"]
+  },
+  {
+    "id": "help-8",
+    "section": "general",
+    "category": "Focus/Protection",
+    "title": "Focus Mode and Protection Setup",
+    "summary": "Configuring distraction-free focus sessions and protecting sensitive sections of the app.",
+    "content": [
+      "1. Select Focus / Protection from the main dashboard.",
+      "2. Set a focused work timer to minimize distractions during study or deep work.",
+      "3. Configure local biometric (fingerprint / PIN) protection for sensitive app tools.",
+      "4. Emergency calls and essential contacts remain accessible at all times."
+    ],
+    "androidSpecific": true,
+    "tags": ["focus", "protection", "security", "biometrics"]
+  },
+  {
+    "id": "help-9",
+    "section": "general",
+    "category": "App Download",
+    "title": "Troubleshooting App Download and APK Installation",
+    "summary": "Resolving common download or Android package installation notices.",
+    "content": [
+      "1. Verify you have at least 100 MB of free storage space before downloading.",
+      "2. If Chrome displays 'File might be harmful', this is Android's standard prompt for manual APK downloads. Tap 'Download anyway'.",
+      "3. If prompted with 'Install unknown apps', toggle 'Allow from this source' for your browser.",
+      "4. Always verify you are downloading from the official domain: nexa.com.in."
+    ],
+    "androidSpecific": true,
+    "tags": ["download", "apk", "install", "android"]
+  },
+  {
+    "id": "help-10",
+    "section": "general",
+    "category": "Updates",
+    "title": "Updating to the Latest Version (NEXA v2.5)",
+    "summary": "How to verify your current version and apply official updates.",
+    "content": [
+      "1. Open Settings > About NEXA in your mobile app to view your current build number.",
+      "2. Visit nexa.com.in/updates or check the in-app update banner.",
+      "3. Download and install the new APK over your existing installation to preserve your settings.",
+      "4. The current official release is NEXA v2.5."
+    ],
+    "androidSpecific": true,
+    "tags": ["updates", "version", "v2.5", "changelog"]
+  },
+  {
+    "id": "help-11",
+    "section": "general",
+    "category": "Troubleshooting",
+    "title": "Common Issues and Contacting Support",
+    "summary": "Fast steps to resolve common questions and get in touch with the official NEXA team.",
+    "content": [
+      "1. Restart the NEXA app if a tool feels slow or unresponsive.",
+      "2. Clear the app cache under Android Settings > Apps > NEXA > Storage & cache.",
+      "3. Use our interactive 'Ask NEXA AI' widget on this website for immediate answers.",
+      "4. For personalized assistance, contact our official support email directly at nexa.com.in21@gmail.com."
+    ],
+    "androidSpecific": false,
+    "tags": ["troubleshooting", "support", "email", "faq"]
+  }
+]
