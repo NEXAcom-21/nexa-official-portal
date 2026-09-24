@@ -17,7 +17,7 @@
     "Focus and Device Protection controls for distraction-free sessions",
     "Clean, battery-efficient Settings interface with dark AMOLED styling"
   ],
-  "apkUrl": "/downloads/NEXA-v2.5.apk",
+  "apkUrl": "https://github.com/NEXAcom-21/nexa-official-portal/releases/download/v2.5/NEXA_v2.5.apk",
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.nexa.assistant",
   "otherStoreUrl": "",
   "minimumAndroidVersion": "Android 8.0 (Oreo, API level 26) or higher",
