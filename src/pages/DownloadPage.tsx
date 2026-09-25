@@ -84,102 +84,25 @@ export const DownloadPage: React.FC<DownloadPageProps> = ({ config, onNavigate }
   const isPublicDownload = Boolean(config?.publicDownload);
 
   // Authenticated real binary download handler with releaseId support
-  const handleDownload = async (productId: string, productName: string, targetVersion: string, releaseId?: string) => {
-    // 1. Enforce user authentication if publicDownload is disabled
-    if (!isPublicDownload && !user) {
-      openAuthModal('login', `Please sign in or create an account to download the authentic ${productName} APK.`);
-      return;
-    }
+  const handleDownload = (
+  productId: string,
+  productName: string,
+  targetVersion: string,
+  releaseId?: string
+) => {
+  if (!isPublicDownload && !user) {
+    openAuthModal(
+      'login',
+      `Please sign in or create an account to download the ${productName} APK.`
+    );
+    return;
+  }
 
-    setDownloadingProduct(releaseId || productId);
-    setDownloadStatusModal(null);
-
-    try {
-      const queryParams = new URLSearchParams();
-      if (targetVersion) queryParams.set('version', targetVersion.replace(/^v/i, ''));
-      if (releaseId) queryParams.set('releaseId', releaseId);
-      if (token) queryParams.set('token', token);
-
-      const downloadEndpoint = `/api/downloads/${productId}?${queryParams.toString()}`;
-      const res = await fetch(downloadEndpoint, {
-        headers: token ? { Authorization: `Bearer ${token}` } : {}
-      });
-
-      if (res.status === 401) {
-        openAuthModal('login', `Your session has expired. Please sign in to download ${productName}.`);
-        return;
-      }
-
-      if (res.status === 404 || !res.ok) {
-        let message = 'APK not available yet. Please check back after the Admin publishes a release.';
-        try {
-          const errData = await res.json();
-          if (errData.error) message = errData.error;
-        } catch {
-          // ignore
-        }
-
-        setDownloadStatusModal({
-          title: 'APK Not Available Yet',
-          message,
-          productName,
-          version: targetVersion,
-          type: 'unavailable'
-        });
-        return;
-      }
-
-      // Check header to ensure it's not JSON error
-      const contentType = res.headers.get('content-type') || '';
-      if (!contentType.includes('application/vnd.android.package-archive') && !contentType.includes('application/octet-stream')) {
-        setDownloadStatusModal({
-          title: 'APK Not Available Yet',
-          message: 'APK not available yet. Please check back after the Admin publishes a release.',
-          productName,
-          version: targetVersion,
-          type: 'unavailable'
-        });
-        return;
-      }
-
-      // Real binary stream! Download cleanly
-      const blob = await res.blob();
-      let filename = `${productName.toLowerCase().replace(/\s+/g, '-')}-v${targetVersion}.apk`;
-      const disposition = res.headers.get('content-disposition') || '';
-      const match = disposition.match(/filename="?([^";]+)"?/);
-      if (match && match[1]) {
-        filename = match[1];
-      }
-
-      const objectUrl = window.URL.createObjectURL(blob);
-      const link = document.createElement('a');
-      link.href = objectUrl;
-      link.download = filename;
-      document.body.appendChild(link);
-      link.click();
-      window.URL.revokeObjectURL(objectUrl);
-      document.body.removeChild(link);
-
-      setDownloadStatusModal({
-        title: 'Authentic Download Started',
-        message: `Successfully verified and downloaded ${filename}. Follow the Android installation guide below.`,
-        productName,
-        version: targetVersion,
-        type: 'success'
-      });
-    } catch (err: any) {
-      setDownloadStatusModal({
-        title: 'Download Interrupted',
-        message: err.message || 'Unable to complete download. Please check your network connection.',
-        productName,
-        version: targetVersion,
-        type: 'error'
-      });
-    } finally {
-      setDownloadingProduct(null);
-    }
-  };
-
+  if (productId.toLowerCase() === 'nexa') {
+    window.location.href =
+      'https://github.com/NEXAcom-21/nexa-official-portal/releases/download/v2.5/NEXA_v2.5.apk';
+  }
+};
   const installSteps = [
     {
       step: 1,
