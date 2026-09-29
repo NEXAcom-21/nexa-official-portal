@@ -100,7 +100,7 @@ export const DownloadPage: React.FC<DownloadPageProps> = ({ config, onNavigate }
 
   if (productId.toLowerCase() === 'nexa') {
     window.location.href =
-      'https://github.com/NEXAcom-21/nexa-official-portal/releases/download/v2.5/NEXA_v2.5.apk';
+      'https://github.com/NEXAcom-21/nexa-official-portal/releases/download/v2.6/NEXA_v2.6.apk';
   }
 };
   const installSteps = [
